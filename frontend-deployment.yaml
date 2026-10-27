@@ -21,4 +21,4 @@ spec:
                           - containerPort: 3000
                       env:
                           - name: API_ORIGIN
-                            value: "http://REDIS"
+                            value:  "http://backend-app-service:8080"
